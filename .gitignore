@@ -3,3 +3,4 @@ db/
 __pycache__/
 authentication.json
 ai-data.json
+credentials.json

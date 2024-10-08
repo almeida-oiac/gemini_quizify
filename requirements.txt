@@ -3,4 +3,7 @@ chromadb
 langchain
 langchain-google-vertexai
 pypdf
+PyPDF2
+langchain-community
+pysqlite3-binary
 service         # I don't know why but 'service' is not included in any package above.

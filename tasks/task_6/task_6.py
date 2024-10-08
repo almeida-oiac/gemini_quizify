@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # Configuration for EmbeddingClient
     embed_config = {
         "model_name": "textembedding-gecko@003",
-        "project": "gemini-quizify-417301",
+        "project": "main-cedar-426514-c5",
         "location": "us-central1"
     }
     document = None

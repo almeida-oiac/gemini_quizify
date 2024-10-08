@@ -13,7 +13,7 @@ if __name__ == "__main__":
     
     embed_config = {
         "model_name": "textembedding-gecko@003",
-        "project": "gemini-quizify-417301",
+        "project": "main-cedar-426514-c5",
         "location": "us-central1"
     }
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
                     st.session_state['question_bank'] = question_bank
                     st.session_state['display_quiz'] = True             # set it to be true to allow quiz generation  
                     st.session_state['question_index'] = 0
-                    st.experimental_rerun()                             # force rerun to let the app shows up the quiz
+                    st.rerun()                             # force rerun to let the app shows up the quiz
 
     elif st.session_state['display_quiz']:
         

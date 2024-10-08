@@ -150,7 +150,7 @@ st.form_submit_button("Next Question", on_click=lambda: obj.next_question_index(
 ### ⚠️ Important Notes
 1. The `if-else` structure stored in this repository cannot automatically refreshes the page to the quiz page since there's no specific command to rerun the app. You can solve it by clicking on the `Rerun` command that every Streamlit app has or add the following command to force rerun:
 ```python
-st.experimental_rerun()
+st.rerun()
 ```
 ### Expected Result
 <img width="792" alt="Screen Shot 2024-03-16 at 6 13 04 PM" src="https://github.com/TommyCheng023/Gemini_Quizify/assets/115842289/a1b144bf-54ed-4271-aa47-97a37315e512">
